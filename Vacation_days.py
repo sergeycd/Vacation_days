@@ -5,7 +5,8 @@ class Employee:
         self.first_name = first_name  # Имя
         self.second_name = second_name  # Фамилия
         self.gender = gender  # Пол
-        self.remaining_vacation_days = self.vacation_days  # Количество дней отпуска
+        self.remaining_vacation_days = self.vacation_days  # Количество дней
+        # отпуска
     
     # Вычисляем количество дней отпуска доступных сотруднику
     def consume_vacation(self, missing_days):
